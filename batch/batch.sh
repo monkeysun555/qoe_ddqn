@@ -12,7 +12,7 @@
 module purge
 
 VIRTUALENV=$SCRATCH
-RUNDIR=$SCRATCH/low_latency_streaming/dyn_naive_general_normal_bw
+RUNDIR=$SCRATCH/low_latency_streaming/qoe_ddqn
 
 cd $VIRTUALENV
 
