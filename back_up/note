@@ -1,0 +1,7 @@
+Nones:  currently performs well for speeding and latency (not always fast playback)
+		but for high bw, rate is 3Mbps, retrain from 96000, add reward to rate (this model is trained with high penalty for rebuffering, and latency) (1, 10, 1, 6, 6, 1, 3, 3)
+The model in "startpoint" is a 10w ckpt but with low rate in high bw scenario
+Continue on that to the one in "inuse" directory. this is the model-100000 in "models"
+
+
+Amplify nones: still to retrain, (might increase penalty to skip)
