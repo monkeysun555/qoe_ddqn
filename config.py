@@ -44,7 +44,7 @@ class Config(object):
     a_regular_test_files = './amplified_debug/'
     cdf_dir = '../compare/compare_results/'
     a_cdf_dir = '../compare/amplified_compare_results/'
-    trace_idx = 21
+    trace_idx = 10
 
 class Env_Config(object):
     # For environment, ms
